@@ -16,7 +16,6 @@ const authRouter = require('./routes/auth');
 const User = require('./models/User');
 
 const connectDB = require('./db/connect');
-const { resourceLimits } = require('worker_threads');
 
 const MongoDBStore = require('connect-mongodb-session')(session);
 
